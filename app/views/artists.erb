@@ -1,0 +1,8 @@
+<body>
+
+  <%Artist.all.each do |artist|%>
+  <a href="/artists/<%=artist.slug%>"><%= artist.name %></a>
+  <!-- find by slug?-->
+  <% end %>
+
+</body>
